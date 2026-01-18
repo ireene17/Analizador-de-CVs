@@ -118,6 +118,7 @@ if st.button("Iniciar Análisis"):
                         st.info("Considera incluir algunos de estos términos en tu CV:")
                         st.write(", ".join(display_missing))
                     else:
-                        st.success("¡Increíble! Tu CV cubre todas las palabras clave de la oferta.")
+                        st.success("Tu CV cubre todas las palabras clave de la oferta.")
     else:
+
         st.error("Por favor, asegúrate de haber subido el PDF y pegado la descripción.")
